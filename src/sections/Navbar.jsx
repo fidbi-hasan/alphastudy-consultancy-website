@@ -36,8 +36,8 @@ const Navbar = () => {
       <div 
         className={`transition-all duration-500 ${
           scrolled 
-          ? "py-3 bg-[#0a0f1c]/95 backdrop-blur-md shadow-2xl border-b border-white/10" 
-          : "py-3 bg-[#0a0f1c] border-b border-white/5"
+          ? "py-4 bg-[#0a0f1c]/90 backdrop-blur-md shadow-2xl border-b border-white/10" 
+          : "py-4 bg-[#0a0f1c] border-b border-white/5"
         }`}
       >
         <nav className="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-12">
@@ -73,7 +73,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <a 
               href="#contact" 
-              className="hidden md:block bg-primary text-white px-8 py-3 rounded-xl font-bold text-sm hover:bg-blue-700 hover:scale-105 transition-all shadow-xl shadow-primary/20"
+              className="hidden md:block bg-white text-[#0a0f1c] px-8 py-2 rounded-xl font-bold text-xs hover:bg-white/95 transition-all shadow-xl"
             >
               Apply Now
             </a>
