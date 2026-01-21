@@ -16,20 +16,20 @@ const IELTSScreen = () => {
   const modules = ['listening', 'reading', 'writing', 'speaking'];
 
   return (
-    <section className="py-20 bg-primary px-6 rounded-[3rem] mx-4 my-10 text-white overflow-hidden relative">
+    <section className="py-20 bg-[#050810] px-6 text-white">
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         
         <div>
-          <h2 className="text-3xl md:text-5xl font-extrabold mb-6 leading-tight">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 leading-tight">
             আপনার <span className="text-secondary">IELTS স্কোর</span> <br /> হিসেব করুন
           </h2>
-          <p className="text-blue-100 text-lg mb-8">
+          <p className="text-blue-100 text-md mb-8">
             ব্যান্ড স্কোর অনুযায়ী কোন দেশে আপনার যাওয়ার সম্ভাবনা বেশি, তা জানতে আমাদের ক্যালকুলেটরটি ব্যবহার করুন। 
           </p>
           
           <div className="bg-white/10 p-8 rounded-2xl backdrop-blur-md border border-white/20">
             <h3 className="text-5xl font-black text-secondary mb-2">{calculateOverall()}</h3>
-            <p className="font-bold uppercase tracking-widest text-blue-200">Overall Band Score</p>
+            <p className="font-bold uppercase tracking-widest">Overall Band Score</p>
           </div>
         </div>
 
@@ -51,7 +51,7 @@ const IELTSScreen = () => {
             ))}
           </div>
           
-          <button className="w-full mt-10 bg-primary text-white font-bold py-4 rounded-xl hover:bg-blue-800 transition-all shadow-lg">
+          <button className="w-full mt-10 bg-[#050810] text-white font-bold py-4 rounded-xl hover:bg-[#050810]/80 transition-all shadow-lg cursor-pointer">
             এই স্কোর নিয়ে কোথায় যাওয়া যাবে?
           </button>
         </div>

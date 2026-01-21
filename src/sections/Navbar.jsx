@@ -40,7 +40,7 @@ const Navbar = () => {
           : "py-3 bg-[#0a0f1c] border-b border-white/5"
         }`}
       >
-        <nav className="max-w-[1440px] mx-auto flex justify-between items-center px-6 lg:px-12">
+        <nav className="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-12">
           
           {/* Logo Section */}
           <a href="/" className="group flex items-center gap-2">

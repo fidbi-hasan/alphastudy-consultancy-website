@@ -6,8 +6,8 @@ import Destinations from "./sections/Destinations"; // New
 import AssessmentForm from "./sections/AssessmentForm";
 import Footer from "./sections/Footer";
 import WhatsAppButton from "./sections/WhatsAppButton";
-import IELTSScreen from "./IELTSScreen";
-import SuccessStories from "./SuccessStories";
+import IELTSScreen from "./sections/IELTSScreen";
+import SuccessStories from "./sections/SuccessStories";
 import ContactMap from "./sections/ContactMap";
 
 const App = () => {

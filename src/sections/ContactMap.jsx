@@ -4,12 +4,12 @@ const ContactMap = () => {
 
   return (
     <section className="py-20 bg-white px-6">
-      <div className="max-w-[1440px] mx-auto">
+      <div className="max-w-[1200px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
           
           {/* Contact Details */}
           <div className="lg:col-span-1">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">আমাদের সাথে <span className="text-primary">যোগাযোগ করুন</span></h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">আমাদের সাথে <span className="text-primary">যোগাযোগ করুন</span></h2>
             <div className="space-y-8">
               <div className="flex gap-4">
                 <div className="bg-blue-50 p-3 rounded-xl text-primary text-xl">📍</div>

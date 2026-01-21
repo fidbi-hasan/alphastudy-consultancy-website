@@ -3,8 +3,8 @@ import { services } from "../constants";
 const Services = () => {
   return (
     <section id="services" className="py-20 bg-white px-6">
-      <div className="max-w-[1440px] mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-4">
+      <div className="max-w-[1200px] mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
           আমাদের <span className="text-primary">সার্ভিসসমূহ</span>
         </h2>
         <p className="text-slate-600 mb-12 max-w-xl mx-auto">

@@ -2,12 +2,12 @@ import { countries } from "../constants";
 
 const Destinations = () => {
   return (
-    <section id="countries" className="py-24 bg-slate-50 px-6"> {/* Changed section bg to light gray */}
-      <div className="max-w-[1440px] mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6">
+    <section id="countries" className="py-20 bg-slate-50 px-6"> {/* Changed section bg to light gray */}
+      <div className="max-w-[1200px] mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">
           আপনার পছন্দের <span className="text-primary">দেশটি বেছে নিন</span>
         </h2>
-        <p className="text-lg text-slate-600 mb-16 max-w-2xl mx-auto">
+        <p className="text-md text-slate-600 mb-16 max-w-2xl mx-auto">
           বিদেশের নামী সব ইউনিভার্সিটি এবং স্কলারশিপের সুযোগ নিয়ে আমরা আছি আপনার পাশে।
         </p>
 

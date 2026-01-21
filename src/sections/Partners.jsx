@@ -2,12 +2,12 @@ import { universityLogos } from "../constants";
 
 const Partners = () => {
   return (
-    <div className="py-10 bg-slate-50 border-y border-slate-100 overflow-hidden">
-      <div className="max-w-[1440px] mx-auto px-6">
-        <p className="text-center text-sm font-bold text-slate-400 uppercase tracking-widest mb-8">
+    <div className="py-10 bg-slate-50 border-y border-slate-100 px-6">
+      <div className="max-w-[1200px] mx-auto">
+        <p className="text-center text-lg font-bold text-[#050810] uppercase tracking-widest mb-8">
           আমাদের পার্টনার ইউনিভার্সিটিসমূহ
         </p>
-        <div className="flex flex-wrap justify-center items-center gap-12 opacity-50 grayscale hover:grayscale-0 transition-all">
+        <div className="flex flex-wrap justify-center items-center gap-10 opacity-50 grayscale hover:grayscale-0 transition-all">
           {universityLogos.map((uni) => (
             <img 
               key={uni.name} 

@@ -1,22 +1,22 @@
 const AssessmentForm = () => {
   return (
-    <section id="contact" className="py-20 bg-slate-50 px-6">
+    <section id="contact" className="py-20 bg-[#050810] px-6">
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         
         {/* Left Side: Trust & Info */}
         <div>
-          <h2 className="text-3xl md:text-5xl font-bold text-slate-900 mb-6 leading-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
             আপনার যোগ্যতার ভিত্তিতে <br /> 
             <span className="text-primary">ফ্রি অ্যাসেসমেন্ট করুন</span>
           </h2>
-          <p className="text-lg text-slate-600 mb-8">
+          <p className="text-md text-white mb-8">
             সঠিক তথ্য দিয়ে ফরমটি পূরণ করুন। আমাদের এক্সপার্ট কাউন্সিলররা আপনার প্রোফাইল যাচাই করে ২৪ ঘণ্টার মধ্যে যোগাযোগ করবেন।
           </p>
           
           <ul className="space-y-4">
             {['সেরা ইউনিভার্সিটি সিলেকশন', 'স্কলারশিপের সুযোগ যাচাই', 'ভিসা গাইডলাইন'].map((item) => (
-              <li key={item} className="flex items-center gap-3 text-slate-700 font-medium">
-                <span className="text-green-500 text-xl">✔</span> {item}
+              <li key={item} className="flex items-center gap-3 text-white font-medium">
+                <span className="text-green-400 text-md">✔</span> {item}
               </li>
             ))}
           </ul>
@@ -51,7 +51,7 @@ const AssessmentForm = () => {
               </select>
             </div>
 
-            <button className="w-full bg-primary text-white font-bold py-4 rounded-xl hover:bg-blue-800 shadow-lg shadow-blue-200 transition-all active:scale-95">
+            <button className="w-full bg-[#050810] text-white font-bold py-4 rounded-xl hover:bg-[#050810]/80 cursor-pointer shadow-lg shadow-blue-200 transition-all active:scale-95">
               আবেদন জমা দিন
             </button>
           </form>
