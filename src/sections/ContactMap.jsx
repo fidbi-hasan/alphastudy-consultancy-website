@@ -9,7 +9,7 @@ const ContactMap = () => {
           
           {/* Contact Details */}
           <div className="lg:col-span-1">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">আমাদের সাথে <span className="text-primary">যোগাযোগ করুন</span></h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">আমাদের সাথে <span className="text-primary">যোগাযোগ করুন</span></h2>
             <div className="space-y-8">
               <div className="flex gap-4">
                 <div className="bg-blue-50 p-3 rounded-xl text-primary text-xl">📍</div>

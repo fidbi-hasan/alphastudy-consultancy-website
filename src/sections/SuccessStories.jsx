@@ -28,10 +28,10 @@ const SuccessStories = () => {
       {/* Container matches Navbar and Hero alignment */}
       <div className="max-w-[1200px] mx-auto">
         
-        <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+        <div className="flex flex-col md:flex-row justify-between mb-12 gap-6">
           <div className="text-left">
             <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 uppercase tracking-tighter">
-              সফল স্টুডেন্টদের <span className="text-primary">ফিডব্যাক</span>
+              সফল স্টুডেন্টদের ফিডব্যাক
             </h2>
             <p className="text-slate-500 font-medium">৫০০+ স্টুডেন্ট তাদের ক্যারিয়ার গড়েছে আমাদের সাথে</p>
           </div>

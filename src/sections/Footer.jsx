@@ -62,10 +62,28 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-6 text-white border-l-4 border-primary pl-3">জনপ্রিয় দেশ</h4>
             <ul className="space-y-4 text-slate-400 text-sm">
-              <li className="flex items-center gap-2"><span>🇺🇸</span> USA Study Visa</li>
-              <li className="flex items-center gap-2"><span>🇨🇦</span> Canada Study Permit</li>
-              <li className="flex items-center gap-2"><span>🇬🇧</span> UK Tier 4 Visa</li>
-              <li className="flex items-center gap-2"><span>🇦🇺</span> Australia Student Visa</li>
+              {[
+                { name: "USA Study Visa", code: "us" },
+                { name: "Canada Study Permit", code: "ca" },
+                { name: "UK Tier 4 Visa", code: "gb" },
+                { name: "Australia Student Visa", code: "au" },
+              ].map((item) => (
+                <li key={item.code} className="group flex items-center gap-3 cursor-pointer">
+                  {/* Real Flag Icon Container */}
+                  <div className="w-6 h-4 overflow-hidden rounded-xs shadow-sm border border-white/10">
+                    <img 
+                      src={`https://flagcdn.com/w40/${item.code}.png`} 
+                      alt={item.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                  </div>
+                  
+                  {/* Text with hover color change */}
+                  <span className="group-hover:text-secondary transition-colors duration-300">
+                    {item.name}
+                  </span>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -75,7 +93,7 @@ const Footer = () => {
             <div className="space-y-4 text-slate-400 text-sm">
               <p className="flex items-start gap-3">
                 <span className="text-primary text-lg">📍</span> 
-                ঢাকা, বাংলাদেশ (ফার্মগেট শাখা)
+                Hamid Tower 4th Floor, Gulshan Bata Gulshan
               </p>
               <p className="flex items-center gap-3">
                 <span className="text-primary text-lg">📞</span> 
@@ -83,7 +101,7 @@ const Footer = () => {
               </p>
               <p className="flex items-center gap-3">
                 <span className="text-primary text-lg">✉️</span> 
-                info@alphasabroad.com
+                contact@alphastudy.com
               </p>
             </div>
           </div>

@@ -21,7 +21,7 @@ const IELTSScreen = () => {
         
         <div>
           <h2 className="text-3xl md:text-4xl font-extrabold mb-6 leading-tight">
-            আপনার <span className="text-secondary">IELTS স্কোর</span> <br /> হিসেব করুন
+            আপনার IELTS স্কোর হিসেব করুন
           </h2>
           <p className="text-blue-100 text-md mb-8">
             ব্যান্ড স্কোর অনুযায়ী কোন দেশে আপনার যাওয়ার সম্ভাবনা বেশি, তা জানতে আমাদের ক্যালকুলেটরটি ব্যবহার করুন। 

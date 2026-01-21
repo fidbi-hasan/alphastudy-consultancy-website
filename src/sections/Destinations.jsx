@@ -11,7 +11,7 @@ const Destinations = () => {
           বিদেশের নামী সব ইউনিভার্সিটি এবং স্কলারশিপের সুযোগ নিয়ে আমরা আছি আপনার পাশে।
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {countries.map((country) => (
             <div 
               key={country.name} 

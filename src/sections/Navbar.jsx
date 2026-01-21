@@ -20,7 +20,7 @@ const Navbar = () => {
       {/* --- TOP CONTACT BAR (Matches Footer Accents) --- */}
       {!scrolled && (
         <div className="hidden md:block bg-[#050810] text-slate-400 text-[10px] py-2 border-b border-white/5 transition-all duration-300">
-          <div className="max-w-[1440px] mx-auto px-12 flex justify-between items-center font-medium tracking-widest uppercase">
+          <div className="max-w-[1200px] mx-auto flex justify-between items-center font-medium tracking-widest uppercase">
             <div className="flex gap-6">
               <span className="flex items-center gap-2"><span className="text-primary">📍</span> Farmgate, Dhaka</span>
               <span className="flex items-center gap-2"><span className="text-primary">📞</span> +880 1712-345678</span>
@@ -40,7 +40,7 @@ const Navbar = () => {
           : "py-4 bg-[#0a0f1c] border-b border-white/5"
         }`}
       >
-        <nav className="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-12">
+        <nav className="max-w-[1200px] mx-auto flex justify-between items-center px-6 md:px-0">
           
           {/* Logo Section */}
           <a href="/" className="group flex items-center gap-2">
