@@ -38,10 +38,10 @@ const Destinations = () => {
                 </p>
 
                 <div className="flex justify-between items-center">
-                   <span className="text-xs font-bold text-primary bg-blue-400 px-3 py-1.5 rounded-full">
+                   <span className="text-xs font-bold text-primary bg-[#050810] text-white px-3 py-1.5 rounded-full">
                     {country.students} Students
                   </span>
-                  <span className="text-primary opacity-0 group-hover:opacity-100 transition-opacity font-bold text-xl">
+                  <span className="text-[#050810] opacity-0 group-hover:opacity-100 transition-opacity font-bold text-xl">
                     →
                   </span>
                 </div>

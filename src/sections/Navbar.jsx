@@ -49,8 +49,8 @@ const Navbar = () => {
                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                </svg>
             </div>
-            <span className="text-xl font-black text-white uppercase tracking-tighter">
-              Alpha<span className="text-secondary">Study</span>
+            <span className="text-xl font-black text-white uppercase tracking-tight">
+              Alpha Study Abroad
             </span>
           </a>
 
